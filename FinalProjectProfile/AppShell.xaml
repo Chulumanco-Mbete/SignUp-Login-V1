@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FinalProjectProfile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FinalProjectProfile"
+    xmlns:models="clr-namespace:FinalProjectProfile.StartUp"
+    Shell.FlyoutBehavior="Disabled"
+    Title="FinalProjectProfile">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate models:SignUpPage}"
+        Route="SignUpPage" />
+</Shell>
