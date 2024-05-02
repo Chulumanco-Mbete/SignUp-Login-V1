@@ -20,7 +20,7 @@ namespace FinalProjectProfile.Models.SignUp
         [EmailAddress(ErrorMessage = "Please enter your email")]
         public string Email { get; set; }
 
-        [Display(Prompt = "Enter your mobile number", Name = "Mobile number")]
+        [Display(Prompt = "Enter your mobile number", Name = "Mobile number", Description = "Optional")]
         [StringLength(10, MinimumLength = 6, ErrorMessage = "Please enter a valid number")]
         public string MobileNumber { get; set; }
 
