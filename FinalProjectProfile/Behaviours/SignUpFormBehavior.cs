@@ -63,7 +63,7 @@ namespace FinalProjectProfile.Behaviours
                 if (this.dataForm.Validate())
                 {
                     await App.Current.MainPage.DisplayAlert("", "Signed up successfully", "OK");
-                    
+                    await Shell.Current.GoToAsync("login");
                 }
                 else
                 {

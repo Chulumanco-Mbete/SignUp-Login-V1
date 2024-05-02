@@ -4,8 +4,7 @@
              xmlns:dataForm="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
              xmlns:local="clr-namespace:FinalProjectProfile.Models.Login"
              xmlns:behaviour="clr-namespace:FinalProjectProfile.Behaviours"
-             x:Class="FinalProjectProfile.StartUp.LoginPage"
-             Title="LoginPage">
+             x:Class="FinalProjectProfile.StartUp.LoginPage">
 
     <ContentPage.BindingContext>
         <local:LoginFormViewModel/>
@@ -61,7 +60,7 @@
                     <Label Text="Forgot password?" Grid.Column="1"  TextColor="{StaticResource Primary}" HorizontalTextAlignment="Center" Padding="10,0,0,0" FontSize="12"  VerticalOptions="Center" />
                 </Grid>
 
-                <Button Text="LOGIN" x:Name="loginButton" HeightRequest="40" VerticalOptions="End"
+                <Button Text="Login" x:Name="loginButton" HeightRequest="40" VerticalOptions="End"
                         HorizontalOptions="Fill" Margin="20,0,20,0" CornerRadius="10"
                         Padding="0"  FontAttributes="Bold"
                         Grid.Row="3" Background="{StaticResource Primary}"/>

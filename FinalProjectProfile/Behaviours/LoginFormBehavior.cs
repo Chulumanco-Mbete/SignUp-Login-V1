@@ -37,6 +37,7 @@ namespace FinalProjectProfile.Behaviours
                 if (dataForm.Validate())
                 {
                     await Application.Current.MainPage.DisplayAlert("", "Signed in successfully", "OK");
+                    await Shell.Current.GoToAsync("onboard");
                 }
                 else
                 {
